@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MyViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MyViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MyViewController.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/shouldAutorotateToInterfaceOrientation:</TokenIdentifier>
+			<Abstract type="html">Method returns true if the view is allowed to rotate to an orientaion</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>interfaceOrientation</Name>
+					<Abstract type="html">The orientation the view might rotate to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Yes if view will rotate, No if not.</Abstract></ReturnValue>
+			<Anchor>//api/name/shouldAutorotateToInterfaceOrientation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">This method is called after the view controller is loaded into memory.
+    Is used for additional setup of the view at load-time</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">This method is called right before the view is shown on screen.
+    Is used to show created items and finnish setting up subviews 
+    because the view has it size properties now.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">BOOL value letting you know if the view will be shown
+                    with animation or not.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewDidAppear:</TokenIdentifier>
+			<Abstract type="html">This method is called after the view has appeared on the screen.
+    Is used if you need to display something on the screen after the view
+    is visible like animations.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewDidAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">BOOL value letting you know if the view appeared in an
+                    animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewDidAppear:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewWillDisappear:</TokenIdentifier>
+			<Abstract type="html">This method is called right before the view will be hidden or removed.
+    This is used to stop any visual affects by the view becuase it is will no
+    longer be visible.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewWillDisappear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">BOOL value that lets you know if the view will be dismissed
+                    with an animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillDisappear:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewDidDisappear:</TokenIdentifier>
+			<Abstract type="html">This method is called right after the view has finnished being hidden or removed.
+    This is used to release high memory objects so that you do not waste memory while
+    the view is not visible.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewDidDisappear:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidDisappear:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewWillUnload</TokenIdentifier>
+			<Abstract type="html">This method is called right before the view is removed from the view hierarchy.
+    It is use it to commit editing changes, resign the first responder status of 
+    the view, or perform other relevant tasks.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewWillUnload</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillUnload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MyViewController/viewDidUnload</TokenIdentifier>
+			<Abstract type="html">This method is called after the view is removed from the view hierarchy.
+    It is used to release data that can be easily recreated when the view is 
+    loaded again.</Abstract>
+			<DeclaredIn>MyViewController.m</DeclaredIn>			
+			
+			<Declaration>- (void)viewDidUnload</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidUnload</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
