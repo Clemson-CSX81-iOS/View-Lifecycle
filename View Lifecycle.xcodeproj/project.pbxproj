@@ -50,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F73548FF15ED17CC00F6A143 /* Not Important */ = {
+			isa = PBXGroup;
+			children = (
+				F7D34626158F92B200D64116 /* AppDelegate.h */,
+				F7D34627158F92B200D64116 /* AppDelegate.m */,
+				F73548E515ED154B00F6A143 /* StartViewController.h */,
+				F73548E615ED154B00F6A143 /* StartViewController.m */,
+			);
+			name = "Not Important";
+			sourceTree = "<group>";
+		};
 		F7D34608158F92B200D64116 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +112,7 @@
 		F7D34634158F92C200D64116 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F7D34626158F92B200D64116 /* AppDelegate.h */,
-				F7D34627158F92B200D64116 /* AppDelegate.m */,
-				F73548E515ED154B00F6A143 /* StartViewController.h */,
-				F73548E615ED154B00F6A143 /* StartViewController.m */,
+				F73548FF15ED17CC00F6A143 /* Not Important */,
 				F7D3462C158F92B200D64116 /* MyViewController.h */,
 				F7D3462D158F92B200D64116 /* MyViewController.m */,
 			);
