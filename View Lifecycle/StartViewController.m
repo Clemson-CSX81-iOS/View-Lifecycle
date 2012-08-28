@@ -16,12 +16,12 @@
  */
 
 - (IBAction)animated:(id)sender {
-    [self.navigationController pushViewController:[[self.storyboard instantiateViewControllerWithIdentifier:@"vc1"]autorelease]
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"vc1"]
                                          animated:YES];
 }
 
 - (IBAction)notAnimated:(id)sender {
-    [self.navigationController pushViewController:[[self.storyboard instantiateViewControllerWithIdentifier:@"vc1"]autorelease]
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"vc1"]
                                          animated:NO];
 }
 
