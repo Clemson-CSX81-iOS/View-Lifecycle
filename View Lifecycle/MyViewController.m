@@ -34,6 +34,7 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"View Did Load");
 }
 
 /** This method is called right before the view is shown on screen.
@@ -44,6 +45,7 @@
  */
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    NSLog(@"View Will Appear animated: %@",animated?@"YES":@"NO");
 }
 
 /** This method is called after the view has appeared on the screen.
@@ -54,6 +56,7 @@
  */
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    NSLog(@"View Did Appear animated: %@",animated?@"YES":@"NO");
 }
 
 /** This method is called right before the view will be hidden or removed.
@@ -64,6 +67,7 @@
  */
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+    NSLog(@"View Will Disappear animated: %@",animated?@"YES":@"NO");
 }
 
 /** This method is called right after the view has finnished being hidden or removed.
@@ -72,6 +76,7 @@
  */
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
+    NSLog(@"View Did Disappear animated: %@",animated?@"YES":@"NO");
 }
 
 /** This method is called right before the view is removed from the view hierarchy.
@@ -80,6 +85,7 @@
  */
 - (void)viewWillUnload {
     [super viewWillUnload];
+    NSLog(@"View Will Unload");
 }
 
 /** This method is called after the view is removed from the view hierarchy.
@@ -88,6 +94,7 @@
  */
 - (void)viewDidUnload {
     [super viewDidUnload];
+    NSLog(@"View Did Unload");
 }
 
 #pragma mark - UI Actions
@@ -106,6 +113,7 @@
 
 -(void)dealloc{
     // dealloc is required when not using ARC
+    NSLog(@"View Dealloc");
     [self.button1 release];
     [self.button2 release];
     [super dealloc];
